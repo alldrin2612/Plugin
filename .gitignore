@@ -1,0 +1,69 @@
+# --- Node.js dependencies and debug logs ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Build and cache artifacts (safe defaults) ---
+dist/
+build/
+.cache/
+.tmp/
+tmp/
+temp/
+coverage/
+.nyc_output/
+.eslintcache
+.parcel-cache/
+.vite/
+.next/
+out/
+storybook-static/
+
+# --- Environment files (keep samples) ---
+.env
+.env.*
+!.env.example
+
+# --- Logs and process files ---
+logs/
+*.log
+*.log.*
+*.out
+*.pid
+*.pid.lock
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editor/IDE settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Caddy related ---
+caddy.exe
+# Keep Caddy config in VCS; add only binary/external data to ignores when needed
+
+# --- TLS/keys and certificates ---
+*.pem
+*.key
+*.crt
+*.cert
+*.pfx
+
+# --- Package artifacts ---
+*.tgz
+*.gz
+
+# --- Package manager caches ---
+.npm/
+.pnpm-store/
+.bun/
