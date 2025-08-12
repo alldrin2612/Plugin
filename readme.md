@@ -10,6 +10,7 @@ A secure, HTTP/3-capable static file server built with Node.js and Caddy, featur
 * ✅ Anti-debug protection:
 
   * Blocks F12, Ctrl+Shift+I/C/J
+  * Ctrl+U was left intact to check the minification results
   * Disables right-click
 
 ---
