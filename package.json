@@ -1,4 +1,10 @@
 {
+  "name": "alldrin2612-plugin",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "clean-css": "^5.3.3",
     "express": "^5.1.0",
