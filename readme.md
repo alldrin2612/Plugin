@@ -73,6 +73,8 @@ Then run Caddy (from PowerShell or Command Prompt):
 ```bash
 caddy run
 ```
+Then go to https://localhost/ to see the app running on HTTPS/HTTP/3.
+
 ---
 
 ## 🧪 How to Test
