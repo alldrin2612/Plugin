@@ -53,7 +53,7 @@ node server.js
 ```
 
 This starts the app on [http://localhost:8080](http://localhost:8080).
-The above starts the Node server but it is not on http3 support, You will get status code 426 'HTTPS (via HTTP/3) required.'aka it runs on http1 so for that we need a reverse proxy server like Caddy.
+The above starts the Node server but it is not on http3 support, You will get status code 426 'HTTPS (via HTTP/3) required.'aka it runs on http1.1 so for that we need a reverse proxy server like Caddy.
 
 
 ### 4. Run Caddy for HTTP/3 Support
